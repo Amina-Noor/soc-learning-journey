@@ -1,4 +1,4 @@
-# Day 2: Networking Fundamentals — The Language of the Internet
+# Day 2: Networking Fundamentals 
 
 ## Overview
 
