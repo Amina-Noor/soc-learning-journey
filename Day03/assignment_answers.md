@@ -18,11 +18,11 @@ UDP (User Datagram Protocol) is a transport layer protocol that provides fast, c
 
 ## 5. Name three differences between TCP and UDP.
 
-**First difference — Reliability:** TCP guarantees reliable delivery of all packets. If a packet is lost, TCP detects it and retransmits it automatically. UDP provides no such guarantee; if a packet is lost, it's simply gone with no recovery mechanism.
+**Reliability:** TCP guarantees reliable delivery of all packets. If a packet is lost, TCP detects it and retransmits it automatically. UDP provides no such guarantee; if a packet is lost, it's simply gone with no recovery mechanism.
 
-**Second difference — Connection model:** TCP is connection-oriented, meaning it must establish a connection through the three-way handshake (SYN → SYN-ACK → ACK) before any data can be sent, and it formally closes the connection when done. UDP is connectionless. It fires packets at the destination without any setup or teardown, making it faster to initiate communication.
+**Connection model:** TCP is connection-oriented, meaning it must establish a connection through the three-way handshake (SYN → SYN-ACK → ACK) before any data can be sent, and it formally closes the connection when done. UDP is connectionless. It fires packets at the destination without any setup or teardown, making it faster to initiate communication.
 
-**Third difference — Ordering and error checking:** TCP ensures packets arrive in the correct order by using sequence numbers, and performs thorough error checking. UDP delivers packets in whatever order they arrive (if they arrive at all) and performs only minimal error checking. This fundamental difference is why TCP is used for things like web browsing and file transfers where every byte matters, while UDP is used for streaming and gaming where occasional data loss is acceptable but speed is critical.
+**Ordering and error checking:** TCP ensures packets arrive in the correct order by using sequence numbers, and performs thorough error checking. UDP delivers packets in whatever order they arrive (if they arrive at all) and performs only minimal error checking. This fundamental difference is why TCP is used for things like web browsing and file transfers where every byte matters, while UDP is used for streaming and gaming where occasional data loss is acceptable but speed is critical.
 
 ## 6. What is a port?
 
